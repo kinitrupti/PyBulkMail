@@ -14,15 +14,17 @@ Usage
 -----
 Setup
 ~~~~~
-Edit the config file before running the script::
+Edit the files before running the script:
 
     $ vim config.py
+    $ vim pymail.py
+
 
 Commandline
 ~~~~~~~~~~~
 The simplest method of sending out a bulk email.
 
-Send the actual email to all recipients::
+Send the actual email to all recipients:
     $  cd PyBulkMail
     $  python pymail.py -s /home/xyz/PyBulkMail/test.html /home/xyz/PyBulkMail/pymail.csv 'Email Subject'
 
